@@ -15,7 +15,6 @@ um personagem aleatório do universo de Rick and Morty é carregado automaticame
  🖥️ Tecnologias utilizadas
 
 - HTML5
-- CSS3
 - JavaScript (ES6+)
 - [Rick and Morty API](https://rickandmortyapi.com/)
 - TailwindCSS
