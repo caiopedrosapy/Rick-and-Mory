@@ -36,7 +36,6 @@ O consumo foi realizado utilizando a função fetch() com JavaScript assíncrono
 
 /project
 │── index.html
-│── style.css
 │── script.js
 │── README.md
 
