@@ -8,51 +8,64 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
+<body class="bg-gray-900 text-white font-sans flex flex-col justify-center items-center min-h-screen p-4">
 
-<body class="bg-gray-900 text-white flex flex-col items-center p-6">
-
-  <h1 class="text-4xl font-bold text-green-400 mb-6">
+  <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-green-400 mb-6 text-center">
     Rick and Morty
   </h1>
 
-  <div class="bg-gray-800 rounded-xl shadow-lg p-6 w-full max-w-md text-center">
+  <div class="bg-gray-800 w-full max-w-sm sm:max-w-md rounded-2xl shadow-2xl p-6 text-center">
 
-    <img id="imagem" src=""  class="w-52 h-52 rounded-full mx-auto border-4 border-green-400">
-    <h2 id="nome" class="text-2xl font-bold mt-4">
-      Carregando
+    <img
+      id="imagem"
+      src=""
+      alt="Personagem"
+      class="w-40 h-40 sm:w-48 sm:h-48 md:w-52 md:h-52 mx-auto rounded-full border-4 border-green-400 object-cover"
+    >
+
+    <h2 id="nome" class="text-xl sm:text-2xl font-bold mt-4">
+      Carregando...
     </h2>
 
-    <p class="mt-2">
-      <strong>Espécie:</strong>
-      <span id="especie"></span>
-    </p>
+    <div class="mt-4 space-y-2 text-left sm:text-center">
 
-    <p> <strong>Status:</strong>
-      <span id="status"></span> </p>
+      <p>
+        <strong>Espécie:</strong>
+        <span id="especie"></span>
+      </p>
 
-    
-    
-    <p>
-      <strong>Gênero:</strong>
-      <span id="genero"></span>
-    </p>
+      <p>
+        <strong>Status:</strong>
+        <span id="status"></span>
+      </p>
 
-    <p>
-      <strong>  Origem: </strong>
-      <span id="origem"></span>
-    </p>
+      <p>
+        <strong>Gênero:</strong>
+        <span id="genero"></span>
+      </p>
 
-    <button id="botao" class="mt-6 bg-green-500 hover:bg-green-600 px-5 py-2 rounded-lg font-bold">
+      <p>
+        <strong>Origem:</strong>
+        <span id="origem"></span>
+      </p>
+
+    </div>
+
+    <button
+      id="botao"
+      class="mt-6 w-full bg-green-500 hover:bg-green-600 transition duration-300 py-3 rounded-lg text-lg font-bold"
+    >
       Sortear Personagem
     </button>
 
   </div>
 
-  <script src="script.js"></script>
-  <footer>
-    <p>IFPE-CAMPUS PALMARES</p>
-    <p>feito por CAIO PEDROSA</p>
+  <footer class="mt-8 text-center text-gray-400 text-sm">
+    <p>IFPE - Campus Palmares</p>
+    <p>Feito por Caio Pedrosa</p>
   </footer>
-</body>
 
+  <script src="script.js"></script>
+
+</body>
 </html>
