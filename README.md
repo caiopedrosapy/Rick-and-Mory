@@ -40,7 +40,13 @@ O consumo foi realizado utilizando a função fetch() com JavaScript assíncrono
 │── script.js
 │── README.md
 
+---
 
+Tratamento de erros
+
+Foi implementado um bloco try catch para capturar possiveis erros durante a requisição da API evitando que a aplicação seja interrompida caso aconteça algum problema.
+
+---
 
 📌 Funcionalidades
 - Sorteia personagens aleatórios
