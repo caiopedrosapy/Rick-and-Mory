@@ -5,14 +5,14 @@ com informações como nome, espécie, status, gênero e origem.
 
 ---
 
-🚀 Demonstração
+Demonstração
 
 Ao clicar no botão "Sortear Personagem",
 um personagem aleatório do universo de Rick and Morty é carregado automaticamente na tela.
 
 ---
 
-## 🖥️ Tecnologias utilizadas
+ 🖥️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
@@ -21,7 +21,17 @@ um personagem aleatório do universo de Rick and Morty é carregado automaticame
 - TailwindCSS
 
 ---
+API PÚBLICA
 
+-Foi utilizada a API pública https://rickandmortyapi.com/ , que fornece informações sobre os personagens da série, como nome, espécie, status, gênero, origem e imagem.
+
+---
+CONSUMO DA API
+
+O consumo foi realizado utilizando a função fetch() com JavaScript assíncrono async-await,  tornando o código mais organizado e facilitando o tratamento de erros.
+
+
+---
 📂 Estrutura do projeto
 
 /project
@@ -33,17 +43,17 @@ um personagem aleatório do universo de Rick and Morty é carregado automaticame
 
 
 📌 Funcionalidades
-🎲 Sorteia personagens aleatórios
-🧬 Mostra espécie, status, gênero e origem
-🖼️ Exibe imagem do personagem
-🔄 Atualização dinâmica com API
-⚠️ Tratamento básico de erros
-🌐 API utilizada
+- Sorteia personagens aleatórios
+- Mostra espécie, status, gênero e origem
+- Exibe imagem do personagem
+- Atualização dinâmica com API
+- Tratamento básico de erros
+- API utilizada
 
 
 
 Este projeto utiliza a API pública:
-👉 https://rickandmortyapi.com/
+- https://rickandmortyapi.com/
 
 
 ---
